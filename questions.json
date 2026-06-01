@@ -1,0 +1,184 @@
+{
+  "quiz": [
+    {
+      "id": 1,
+      "question": "Syntax-Directed Translation (SDT) is used to:",
+      "options": ["Generate tokens", "Attach semantic actions to grammar productions", "Remove ambiguity", "Optimize code"],
+      "answer": "Attach semantic actions to grammar productions"
+    },
+    {
+      "id": 2,
+      "question": "SDT combines:",
+      "options": ["Syntax and Semantics", "Parsing and Linking", "Loading and Execution", "Compilation and Interpretation"],
+      "answer": "Syntax and Semantics"
+    },
+    {
+      "id": 3,
+      "question": "A Syntax-Directed Definition (SDD) consists of:",
+      "options": ["Grammar and Attributes", "Tokens and Lexemes", "Parse Trees only", "Object Code"],
+      "answer": "Grammar and Attributes"
+    },
+    {
+      "id": 4,
+      "question": "Attributes in SDD are associated with:",
+      "options": ["Grammar Symbols", "Tokens only", "Productions only", "Parsers only"],
+      "answer": "Grammar Symbols"
+    },
+    {
+      "id": 5,
+      "question": "An attribute whose value is computed from child nodes is called:",
+      "options": ["Inherited Attribute", "Synthesized Attribute", "Static Attribute", "Dynamic Attribute"],
+      "answer": "Synthesized Attribute"
+    },
+    {
+      "id": 6,
+      "question": "An attribute obtained from parent or sibling nodes is called:",
+      "options": ["Synthesized Attribute", "Inherited Attribute", "Static Attribute", "Dynamic Attribute"],
+      "answer": "Inherited Attribute"
+    },
+    {
+      "id": 7,
+      "question": "S-attributed definitions use only:",
+      "options": ["Inherited Attributes", "Synthesized Attributes", "Static Variables", "Tokens"],
+      "answer": "Synthesized Attributes"
+    },
+    {
+      "id": 8,
+      "question": "L-attributed definitions allow:",
+      "options": ["Only Synthesized Attributes", "Only Inherited Attributes", "Both Synthesized and Restricted Inherited Attributes", "No Attributes"],
+      "answer": "Both Synthesized and Restricted Inherited Attributes"
+    },
+    {
+      "id": 9,
+      "question": "Semantic rules are attached to:",
+      "options": ["Productions", "Tokens", "Lexemes", "Symbol Tables"],
+      "answer": "Productions"
+    },
+    {
+      "id": 10,
+      "question": "SDT is mainly used in:",
+      "options": ["Semantic Analysis", "Lexical Analysis", "Loading", "Linking"],
+      "answer": "Semantic Analysis"
+    },
+    {
+      "id": 11,
+      "question": "The parse tree used with attributes is called:",
+      "options": ["Syntax Tree", "Annotated Parse Tree", "DAG", "CFG"],
+      "answer": "Annotated Parse Tree"
+    },
+    {
+      "id": 12,
+      "question": "Attribute evaluation is performed on:",
+      "options": ["Parse Tree", "Tokens", "Object Code", "Lexemes"],
+      "answer": "Parse Tree"
+    },
+    {
+      "id": 13,
+      "question": "S-attributed definitions are convenient for:",
+      "options": ["Bottom-Up Parsing", "Top-Down Parsing", "Linking", "Loading"],
+      "answer": "Bottom-Up Parsing"
+    },
+    {
+      "id": 14,
+      "question": "L-attributed definitions are suitable for:",
+      "options": ["Top-Down Parsing", "Linking", "Loading", "Optimization"],
+      "answer": "Top-Down Parsing"
+    },
+    {
+      "id": 15,
+      "question": "A semantic action in SDT is enclosed within:",
+      "options": ["Parentheses ()", "Braces {}", "Brackets []", "Quotes \"\""],
+      "answer": "Braces {}"
+    },
+    {
+      "id": 16,
+      "question": "Which of the following is an attribute type?",
+      "options": ["Synthesized", "Inherited", "Both A and B", "Token"],
+      "answer": "Both A and B"
+    },
+    {
+      "id": 17,
+      "question": "Syntax-directed translation helps in:",
+      "options": ["Type Checking", "Intermediate Code Generation", "Expression Evaluation", "All of the Above"],
+      "answer": "All of the Above"
+    },
+    {
+      "id": 18,
+      "question": "Annotated parse tree contains:",
+      "options": ["Only Grammar Symbols", "Attributes and Values", "Tokens Only", "Object Code"],
+      "answer": "Attributes and Values"
+    },
+    {
+      "id": 19,
+      "question": "Dependency graph is used to:",
+      "options": ["Evaluate Attributes", "Generate Tokens", "Remove Left Recursion", "Build Symbol Table"],
+      "answer": "Evaluate Attributes"
+    },
+    {
+      "id": 20,
+      "question": "A cycle in dependency graph indicates:",
+      "options": ["Valid Evaluation Order", "No Evaluation Order Exists", "Faster Parsing", "Optimization"],
+      "answer": "No Evaluation Order Exists"
+    },
+    {
+      "id": 21,
+      "question": "In SDD, semantic rules define:",
+      "options": ["Attribute Computation", "Parsing Table", "Token Generation", "Linking Process"],
+      "answer": "Attribute Computation"
+    },
+    {
+      "id": 22,
+      "question": "The root attribute value is usually obtained by:",
+      "options": ["Synthesizing Information Upward", "Inheriting Information Downward", "Linking", "Loading"],
+      "answer": "Synthesizing Information Upward"
+    },
+    {
+      "id": 23,
+      "question": "Which attribute is computed from children?",
+      "options": ["Synthesized", "Inherited", "Static", "Dynamic"],
+      "answer": "Synthesized"
+    },
+    {
+      "id": 24,
+      "question": "Which attribute is passed from parent to child?",
+      "options": ["Synthesized", "Inherited", "Static", "Dynamic"],
+      "answer": "Inherited"
+    },
+    {
+      "id": 25,
+      "question": "SDT is an extension of:",
+      "options": ["Context-Free Grammar", "Regular Expressions", "Finite Automata", "Parse Tables"],
+      "answer": "Context-Free Grammar"
+    },
+    {
+      "id": 26,
+      "question": "Translation schemes are implemented during:",
+      "options": ["Parsing", "Linking", "Loading", "Execution"],
+      "answer": "Parsing"
+    },
+    {
+      "id": 27,
+      "question": "Which graph shows attribute dependencies?",
+      "options": ["Flow Graph", "Dependency Graph", "Control Graph", "Parse Graph"],
+      "answer": "Dependency Graph"
+    },
+    {
+      "id": 28,
+      "question": "Semantic actions can be executed during:",
+      "options": ["Parsing", "Loading", "Execution Only", "Linking"],
+      "answer": "Parsing"
+    },
+    {
+      "id": 29,
+      "question": "SDT is useful for generating:",
+      "options": ["Intermediate Code", "Assembly Code", "Type Information", "All of the Above"],
+      "answer": "All of the Above"
+    },
+    {
+      "id": 30,
+      "question": "Syntax-Directed Translation is mainly concerned with:",
+      "options": ["Meaning of Constructs", "Token Recognition", "Memory Allocation", "Linking"],
+      "answer": "Meaning of Constructs"
+    }
+  ]
+}

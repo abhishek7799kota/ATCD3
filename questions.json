@@ -2,183 +2,183 @@
   "quiz": [
     {
       "id": 1,
-      "question": "Syntax-Directed Translation (SDT) is used to:",
-      "options": ["Generate tokens", "Attach semantic actions to grammar productions", "Remove ambiguity", "Optimize code"],
-      "answer": "Attach semantic actions to grammar productions"
+      "question": "Multitasking is the process of:",
+      "options": ["Running a single task", "Running multiple tasks simultaneously", "Compiling programs", "Managing memory only"],
+      "answer": "Running multiple tasks simultaneously"
     },
     {
       "id": 2,
-      "question": "SDT combines:",
-      "options": ["Syntax and Semantics", "Parsing and Linking", "Loading and Execution", "Compilation and Interpretation"],
-      "answer": "Syntax and Semantics"
+      "question": "Process-based multitasking deals with:",
+      "options": ["Multiple processes", "Multiple threads", "Multiple classes", "Multiple files"],
+      "answer": "Multiple processes"
     },
     {
       "id": 3,
-      "question": "A Syntax-Directed Definition (SDD) consists of:",
-      "options": ["Grammar and Attributes", "Tokens and Lexemes", "Parse Trees only", "Object Code"],
-      "answer": "Grammar and Attributes"
+      "question": "Thread-based multitasking deals with:",
+      "options": ["Multiple programs", "Multiple threads within a process", "Multiple CPUs", "Multiple databases"],
+      "answer": "Multiple threads within a process"
     },
     {
       "id": 4,
-      "question": "Attributes in SDD are associated with:",
-      "options": ["Grammar Symbols", "Tokens only", "Productions only", "Parsers only"],
-      "answer": "Grammar Symbols"
+      "question": "Which multitasking is more lightweight?",
+      "options": ["Process-based", "Thread-based", "Memory-based", "File-based"],
+      "answer": "Thread-based"
     },
     {
       "id": 5,
-      "question": "An attribute whose value is computed from child nodes is called:",
-      "options": ["Inherited Attribute", "Synthesized Attribute", "Static Attribute", "Dynamic Attribute"],
-      "answer": "Synthesized Attribute"
+      "question": "A thread is:",
+      "options": ["A lightweight process", "A database", "A compiler", "A package"],
+      "answer": "A lightweight process"
     },
     {
       "id": 6,
-      "question": "An attribute obtained from parent or sibling nodes is called:",
-      "options": ["Synthesized Attribute", "Inherited Attribute", "Static Attribute", "Dynamic Attribute"],
-      "answer": "Inherited Attribute"
+      "question": "The first state of a thread is:",
+      "options": ["Running", "Blocked", "New", "Dead"],
+      "answer": "New"
     },
     {
       "id": 7,
-      "question": "S-attributed definitions use only:",
-      "options": ["Inherited Attributes", "Synthesized Attributes", "Static Variables", "Tokens"],
-      "answer": "Synthesized Attributes"
+      "question": "Which method starts a thread?",
+      "options": ["run()", "start()", "execute()", "begin()"],
+      "answer": "start()"
     },
     {
       "id": 8,
-      "question": "L-attributed definitions allow:",
-      "options": ["Only Synthesized Attributes", "Only Inherited Attributes", "Both Synthesized and Restricted Inherited Attributes", "No Attributes"],
-      "answer": "Both Synthesized and Restricted Inherited Attributes"
+      "question": "After calling start(), a thread enters:",
+      "options": ["New State", "Runnable State", "Dead State", "Blocked State"],
+      "answer": "Runnable State"
     },
     {
       "id": 9,
-      "question": "Semantic rules are attached to:",
-      "options": ["Productions", "Tokens", "Lexemes", "Symbol Tables"],
-      "answer": "Productions"
+      "question": "A thread currently executing is in:",
+      "options": ["Running State", "Dead State", "New State", "Blocked State"],
+      "answer": "Running State"
     },
     {
       "id": 10,
-      "question": "SDT is mainly used in:",
-      "options": ["Semantic Analysis", "Lexical Analysis", "Loading", "Linking"],
-      "answer": "Semantic Analysis"
+      "question": "A thread waiting for a resource enters:",
+      "options": ["Runnable State", "Blocked State", "Dead State", "New State"],
+      "answer": "Blocked State"
     },
     {
       "id": 11,
-      "question": "The parse tree used with attributes is called:",
-      "options": ["Syntax Tree", "Annotated Parse Tree", "DAG", "CFG"],
-      "answer": "Annotated Parse Tree"
+      "question": "When a thread completes execution, it enters:",
+      "options": ["Runnable State", "Running State", "Dead State", "Blocked State"],
+      "answer": "Dead State"
     },
     {
       "id": 12,
-      "question": "Attribute evaluation is performed on:",
-      "options": ["Parse Tree", "Tokens", "Object Code", "Lexemes"],
-      "answer": "Parse Tree"
+      "question": "Which interface can be implemented to create a thread?",
+      "options": ["Runnable", "Serializable", "Cloneable", "Comparable"],
+      "answer": "Runnable"
     },
     {
       "id": 13,
-      "question": "S-attributed definitions are convenient for:",
-      "options": ["Bottom-Up Parsing", "Top-Down Parsing", "Linking", "Loading"],
-      "answer": "Bottom-Up Parsing"
+      "question": "Runnable interface contains which method?",
+      "options": ["start()", "run()", "execute()", "main()"],
+      "answer": "run()"
     },
     {
       "id": 14,
-      "question": "L-attributed definitions are suitable for:",
-      "options": ["Top-Down Parsing", "Linking", "Loading", "Optimization"],
-      "answer": "Top-Down Parsing"
+      "question": "A thread can also be created by extending:",
+      "options": ["Object", "Thread", "Frame", "Panel"],
+      "answer": "Thread"
     },
     {
       "id": 15,
-      "question": "A semantic action in SDT is enclosed within:",
-      "options": ["Parentheses ()", "Braces {}", "Brackets []", "Quotes \"\""],
-      "answer": "Braces {}"
+      "question": "Which class provides thread functionality in Java?",
+      "options": ["Process", "Runnable", "Thread", "Stream"],
+      "answer": "Thread"
     },
     {
       "id": 16,
-      "question": "Which of the following is an attribute type?",
-      "options": ["Synthesized", "Inherited", "Both A and B", "Token"],
-      "answer": "Both A and B"
+      "question": "Thread priority range in Java is:",
+      "options": ["1 to 5", "1 to 10", "0 to 10", "1 to 100"],
+      "answer": "1 to 10"
     },
     {
       "id": 17,
-      "question": "Syntax-directed translation helps in:",
-      "options": ["Type Checking", "Intermediate Code Generation", "Expression Evaluation", "All of the Above"],
-      "answer": "All of the Above"
+      "question": "The default thread priority is:",
+      "options": ["1", "3", "5", "10"],
+      "answer": "5"
     },
     {
       "id": 18,
-      "question": "Annotated parse tree contains:",
-      "options": ["Only Grammar Symbols", "Attributes and Values", "Tokens Only", "Object Code"],
-      "answer": "Attributes and Values"
+      "question": "The minimum thread priority is:",
+      "options": ["0", "1", "5", "10"],
+      "answer": "1"
     },
     {
       "id": 19,
-      "question": "Dependency graph is used to:",
-      "options": ["Evaluate Attributes", "Generate Tokens", "Remove Left Recursion", "Build Symbol Table"],
-      "answer": "Evaluate Attributes"
+      "question": "The maximum thread priority is:",
+      "options": ["5", "8", "9", "10"],
+      "answer": "10"
     },
     {
       "id": 20,
-      "question": "A cycle in dependency graph indicates:",
-      "options": ["Valid Evaluation Order", "No Evaluation Order Exists", "Faster Parsing", "Optimization"],
-      "answer": "No Evaluation Order Exists"
+      "question": "Which method is used to set thread priority?",
+      "options": ["setPriority()", "priority()", "changePriority()", "assignPriority()"],
+      "answer": "setPriority()"
     },
     {
       "id": 21,
-      "question": "In SDD, semantic rules define:",
-      "options": ["Attribute Computation", "Parsing Table", "Token Generation", "Linking Process"],
-      "answer": "Attribute Computation"
+      "question": "Thread synchronization is used to:",
+      "options": ["Improve graphics", "Avoid data inconsistency", "Handle files", "Compile programs"],
+      "answer": "Avoid data inconsistency"
     },
     {
       "id": 22,
-      "question": "The root attribute value is usually obtained by:",
-      "options": ["Synthesizing Information Upward", "Inheriting Information Downward", "Linking", "Loading"],
-      "answer": "Synthesizing Information Upward"
+      "question": "Synchronization is required when:",
+      "options": ["One thread accesses data", "Multiple threads share resources", "Using arrays", "Using loops"],
+      "answer": "Multiple threads share resources"
     },
     {
       "id": 23,
-      "question": "Which attribute is computed from children?",
-      "options": ["Synthesized", "Inherited", "Static", "Dynamic"],
-      "answer": "Synthesized"
+      "question": "Which keyword is used for synchronization?",
+      "options": ["thread", "sync", "synchronized", "lock"],
+      "answer": "synchronized"
     },
     {
       "id": 24,
-      "question": "Which attribute is passed from parent to child?",
-      "options": ["Synthesized", "Inherited", "Static", "Dynamic"],
-      "answer": "Inherited"
+      "question": "A synchronized method allows:",
+      "options": ["Multiple threads simultaneously", "Only one thread at a time", "No threads", "Two threads only"],
+      "answer": "Only one thread at a time"
     },
     {
       "id": 25,
-      "question": "SDT is an extension of:",
-      "options": ["Context-Free Grammar", "Regular Expressions", "Finite Automata", "Parse Tables"],
-      "answer": "Context-Free Grammar"
+      "question": "Synchronization helps prevent:",
+      "options": ["Compilation Errors", "Race Conditions", "Syntax Errors", "Linking Errors"],
+      "answer": "Race Conditions"
     },
     {
       "id": 26,
-      "question": "Translation schemes are implemented during:",
-      "options": ["Parsing", "Linking", "Loading", "Execution"],
-      "answer": "Parsing"
+      "question": "A stream in Java is:",
+      "options": ["A thread", "A flow of data", "A package", "A process"],
+      "answer": "A flow of data"
     },
     {
       "id": 27,
-      "question": "Which graph shows attribute dependencies?",
-      "options": ["Flow Graph", "Dependency Graph", "Control Graph", "Parse Graph"],
-      "answer": "Dependency Graph"
+      "question": "Streams are mainly used for:",
+      "options": ["Graphics", "Input and Output Operations", "Networking Only", "Threads Only"],
+      "answer": "Input and Output Operations"
     },
     {
       "id": 28,
-      "question": "Semantic actions can be executed during:",
-      "options": ["Parsing", "Loading", "Execution Only", "Linking"],
-      "answer": "Parsing"
+      "question": "InputStream is used for:",
+      "options": ["Reading Data", "Writing Data", "Compiling Data", "Deleting Data"],
+      "answer": "Reading Data"
     },
     {
       "id": 29,
-      "question": "SDT is useful for generating:",
-      "options": ["Intermediate Code", "Assembly Code", "Type Information", "All of the Above"],
-      "answer": "All of the Above"
+      "question": "OutputStream is used for:",
+      "options": ["Reading Data", "Writing Data", "Parsing Data", "Executing Data"],
+      "answer": "Writing Data"
     },
     {
       "id": 30,
-      "question": "Syntax-Directed Translation is mainly concerned with:",
-      "options": ["Meaning of Constructs", "Token Recognition", "Memory Allocation", "Linking"],
-      "answer": "Meaning of Constructs"
+      "question": "Java I/O classes are available in package:",
+      "options": ["java.awt", "java.net", "java.io", "java.sql"],
+      "answer": "java.io"
     }
   ]
 }
